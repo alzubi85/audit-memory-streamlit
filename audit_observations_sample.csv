@@ -1,0 +1,4 @@
+observation,recommendation,reference,risk_level
+وجود أكثر من مستخدم يمتلك صلاحيات root على منصة AWS.,إعادة تنظيم صلاحيات الحسابات الحرجة والاقتصار على مستخدم واحد فقط مع استخدام MFA.,Cybersecurity Framework – CBJ – Section B.2.3,High
+عدم وجود عملية تقييم للمخاطر عند التعامل مع مزودي خدمات خارجية.,إجراء تقييم شامل للمخاطر (Risk Assessment) لجميع مزودي الخدمات.,ISO 27001: 2022 – Clause 15.1,Medium
+الوصول المباشر لخادم الإنتاج من خلال RDP بدون استخدام خادم وسيط.,استخدام Jump Server أو أدوات PAM للوصول إلى بيئة الإنتاج.,Cybersecurity Policy – Section G.2.1,High
